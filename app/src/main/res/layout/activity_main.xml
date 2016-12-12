@@ -13,5 +13,5 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="adb shell am startservice  -n it.pook.quiet4sleep/.NotificationFilterChangerService --es mode priority" />
+        android:text="adb shell am startservice  -n it.pook.setdonotdisturb/.NotificationFilterChangerService --ez quiet true" />
 </RelativeLayout>
